@@ -337,10 +337,10 @@ Click Refresh to load latest clean data
 
 Finding:
 
-   17.50% of customers are Inactive
-   Industry benchmark for banking: 10-15%
-   voize is 2-7% above acceptable threshold
-   Dormant + Closed customers add further risk
+   1) 17.50% of customers are Inactive
+   2) Industry benchmark for banking: 10-15%
+   3) voize is 2-7% above acceptable threshold
+   4) Dormant + Closed customers add further risk
 
 Root Cause Analysis:
 
@@ -367,15 +367,17 @@ Expected Impact:
 Reducing churn by 5% on 1,040 customers =
 52 retained customers × $1,310 avg transaction =
 $68,120 additional revenue per transaction cycle
+
+
 🔴 Problem 2 — Data Quality Issues in Core Transaction System
 
 Finding:
 
-   221 transactions with missing channel data
-   215 transactions with missing amount values
-   161 missing transaction dates
-   14 completed transactions with $0 amount
-   232 duplicate transaction IDs detected
+  1) 221 transactions with missing channel data
+  2) 215 transactions with missing amount values
+  3) 161 missing transaction dates
+  4) 14 completed transactions with $0 amount
+  5) 232 duplicate transaction IDs detected
 
 Root Cause Analysis:
 
@@ -402,10 +404,12 @@ Recommendations:
 
 Expected Impact:
 
-Eliminating data quality issues improves:
-  Reporting accuracy by ~4%
-  Regulatory compliance confidence
-   Analyst time saved: 3-4 hours per report cycle
+  1) Eliminating data quality issues improves:
+  2) Reporting accuracy by ~4%
+  3) Regulatory compliance confidence
+  4) Analyst time saved: 3-4 hours per report cycle
+
+   
 🟡 Problem 3 — Revenue Concentration Risk (South Region Dominance)
 
 Finding:
@@ -441,22 +445,23 @@ Expected Impact:
 
 Bringing West region to Midwest revenue levels =
 ~$1M additional annual revenue opportunity
+
 🟡 Problem 4 — Underperforming Digital Banking Channel
 
 Finding:
 
-  Phone:      $3M+ (highest channel revenue)
-  Branch:     $2.5M+
-  ATM:        $1.5M
-  Mobile App: $1.5M
-  Online:     $1.5M (lowest digital channel)
+  1) Phone:      $3M+ (highest channel revenue)
+  2) Branch:     $2.5M+
+  3) ATM:        $1.5M
+  4) Mobile App: $1.5M
+  5) Online:     $1.5M (lowest digital channel)
 
 Root Cause Analysis:
 
-   Older customer segments prefer traditional channels
-   Digital onboarding experience may be friction-heavy
-   Mobile App and Online combined still < Phone alone
-    Digital Banking team has lowest revenue per rep
+  1) Older customer segments prefer traditional channels
+  2) Digital onboarding experience may be friction-heavy
+  3) Mobile App and Online combined still < Phone alone
+  4) Digital Banking team has lowest revenue per rep
 
 Recommendations:
 
@@ -483,16 +488,16 @@ $150-200K operational cost saving annually
 
 Finding:
 
-├── 855 transactions reference inactive/discontinued products
-├── 31 inactive products out of 260 total (12%)
-├── Customers using discontinued products = compliance risk
-└── No automated alert when discontinued product is transacted
+  1) 855 transactions reference inactive/discontinued products
+  2) 31 inactive products out of 260 total (12%)
+  3) Customers using discontinued products = compliance risk
+  4) No automated alert when discontinued product is transacted
 
 Root Cause Analysis:
 
-├── Product deactivation not synced to transaction system
-├── No hard block on discontinued product transactions
-└── Relationship managers unaware of product status changes
+ 1) Product deactivation not synced to transaction system
+ 2) No hard block on discontinued product transactions
+ 3) Relationship managers unaware of product status changes
 
 Recommendations:
 
